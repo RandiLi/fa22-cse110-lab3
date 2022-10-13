@@ -3,11 +3,16 @@ body {
 }
 
 h1 {
-    margin: 0cm 0mm 0in 0pt;
+    border-style: outset;
+    border-color: aqua;
+    border-width: auto;
+    border-radius: auto;
 }
 
-
+h2 {
+    margin-left: 1em;
+}
 
 h3 {
-    margin-left: 50px;
+    padding-left: 50px;
 }
