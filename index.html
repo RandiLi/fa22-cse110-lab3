@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Team Meeting Minutes</title>
+        <meta name="author" content="Randi Li">
+        <link rel="icon" type="image/png" href="./images/favicon.png">
+    </head>
+    <body>
+        <header>
+            <h1>Team Meeting</h1>
+            <details>
+                <summary><h2>Index</h2></summary>
+                <nav>
+                    <h3 style="margin-left:50px;"><a href="#info">Basic Information</a></h3>
+                    <h3 style="margin-left:50px;"><a href="#attend">Attendance List</a></h3>
+                    <h3 style="margin-left:50px;"><a href="#agends">Agenda</a></h3>
+                    <h3 style="margin-left:50px;"><a href="#old">Unconducted Business</a></h3>
+                    <h3 style="margin-left:50px;"><a href="#new">New Business</a></h3>
+                    <h3 style="margin-left:50px;"><a href="#misc">Miscellaneous</a></h3>
+                    <h3 style="margin-left:50px;"><a href="#imgs">Relevant Images</a></h3>
+                    <h3 style="margin-left:50px;"><a href="#audio">Audio Recording</a></h3>
+                    <h3 style="margin-left:50px;"><a href="#video">Video Recording</a></h3>
+                </nav>
+            </details>
+        </header>
+        <hr>
+        <main>
+            <section>
+                <h2 id="info">Basic Information</h2>
+                    <p>This is the webpage for our team's <span>meeting</span> minutes.</p>
+                    <p>This <span>meeting</span> was held on <b>Oct. 9th</b>.</p>
+            </section>
+            <hr>
+            <section>
+                <h2 id="attend">Attendance List</h2>
+                    <fieldset>
+                        <legend>Members</legend>
+                        <div>
+                            <input type="checkbox" id="randi" name="randi" checked>
+                            <label for="randi">Randi Li</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="anon1" name="anon1" checked>
+                            <label for="anon1">Anon One</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="anon2" name="anon2" checked>
+                            <label for="anon2">Anon Two</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="anon3" name="anon3">
+                            <label for="anon3">Anon Absent</label>
+                        </div>
+                    </fieldset>
+            </section>
+            <hr>
+            <section>
+                <h2 id="agenda">Agenda</h2>
+                    <ul>
+                        <li>More group bonding</li>
+                        <li>Wrap up prepping stage</li>
+                        <li>Make sure everyone is ready to work on the project</li>
+                    </ul>
+            </section>
+            <hr>
+            <section>
+                <h2 id="old">Unconducted Business</h2>
+                    <ol>
+                        <li>Finish Scribbl game</li>
+                        <li>Start <i>Among Us game</i></li>
+                        <li>Catch <em>imposter</em></li>
+                        <li>Finalize roles</li>
+                    </ol>
+            </section>
+            <hr>
+            <section>
+                <h2 id="new">New Business</h2>
+                    <ol>
+                        <li>Anon One swapped roles with Two; check in after a week.</li>
+                        <li>Progess reports</li>
+                        <li><strong>Imposter was not caught</strong></li>
+                    </ol>
+            </section>
+            <hr>
+            <section>
+                <h2 id="misc">Miscellaneous</h2>
+                    <ul>
+                        <li>Has anyone seen Anon's dog?</li>
+                        <li>Anon Absent will not be present for the next meeting, either</li>
+                    </ul>
+                    <form action="temp" method="get">
+                        <label for="option">Submit a :</label>
+                        <select name="options" id="option">
+                            <option value="comment">Comment</option>
+                            <option value="request">Request</option>
+                            <option value="review">Review</option>
+                            <option value="suggestion">Suggestion</option>
+                        </select>
+                        <br>
+                        <br>
+                        <textarea id="txt" name="txt" rows="4" cols="50">Say anything!</textarea>
+                        <br>
+                        <label for="identity">You are a:</label>
+                        <input list="identities" name="identity" id="identity">
+                        <datalist id="identities">
+                            <option value="Student">
+                            <option value="Professor">
+                            <option value="TA">
+                        </datalist>
+                    </form>
+                    <button type="button">Submit!</button>
+            </section>
+            <hr>
+            <section>
+                <h2 id="imgs">Relevant Images</h2>
+                    <img width="360" height="360" src="./images/dog.jpg" alt="Anon's dog">
+            </section>
+            <hr>
+            <section>
+                <h2 id="audio">Audio Recording</h2>
+                    <audio controls>
+                        <source src="./media/audio.mp3" type="audio/mpeg">
+                    </audio>
+            </section>
+            <hr>
+            <section>
+                <h2 id="video">Video Recording</h2>
+                    <video width="640" height="360" controls>
+                        <source src="./media/video.mp4" type="video/mp4">
+                    </video>
+            </section>
+        </main>
+        <footer>
+            <p>Made by Randi Li. Oct, 2022.</p>
+        </footer>
+    </body>
+</html>
