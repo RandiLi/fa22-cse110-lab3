@@ -21,11 +21,13 @@ h1 {
 }
 
 h2 {
+    border: 0px solid red;
     margin-left: 1em;
     position: static;
 }
 
 h3 {
+    margin: 0px 0px 0px 0px;
     padding-left: 50px;
 }
 
@@ -41,3 +43,23 @@ p.indep {
     display: block;
 }
 
+a:hover {
+    color: hotpink;
+}
+
+a:active {
+    color: red;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: darkblue;
+    width: 50px;
+    margin: 20px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+}
