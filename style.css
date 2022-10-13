@@ -54,7 +54,7 @@ a:active {
 .wrapper {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-between;
     background-color: darkblue;
     width: 50px;
@@ -62,4 +62,5 @@ a:active {
     text-align: center;
     line-height: 50px;
     font-size: 20px;
+    color: antiquewhite;
 }
