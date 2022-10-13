@@ -3,10 +3,10 @@ body {
 }
 
 h1 {
-    height: 100vw;
-    width: 100vh;
+    height: 1cm;
+    width: 100vw;
+    max-height: 20vh;
     max-width: 48in;
-    max-height: 100cm;
     border-style: outset;
     border-color: aqua;
     border-width: auto;
