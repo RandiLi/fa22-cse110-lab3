@@ -4,7 +4,7 @@ body {
 
 h1 {
     /* Box dimensions */
-    height: 2cm;
+    height: 1.5cm;
     width: 100vw;
     max-height: 20vh;
     max-width: 48in;
@@ -22,6 +22,7 @@ h1 {
 
 h2 {
     margin-left: 1em;
+    position: static;
 }
 
 h3 {
