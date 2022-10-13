@@ -3,14 +3,18 @@ body {
 }
 
 h1 {
-    height: 1cm;
+    /* Box dimensions */
+    height: 2cm;
     width: 100vw;
     max-height: 20vh;
     max-width: 48in;
+    /* Box and border colors */
+    background-color: aliceblue;
     border-style: outset;
     border-color: aqua;
     border-width: auto;
     border-radius: auto;
+    /* Text styling */
     text-decoration: solid;
     text-align: center;
     position: fixed;
@@ -18,10 +22,6 @@ h1 {
 
 h2 {
     margin-left: 1em;
-}
-
-h2.index {
-    position: sticky;
 }
 
 h3 {
