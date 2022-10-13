@@ -3,11 +3,14 @@ body {
 }
 
 h1 {
+    height: 2cm;
+    width: 3in;
+    max-width: 50vw;
+    max-height: 50vh;
     border-style: outset;
     border-color: aqua;
     border-width: auto;
     border-radius: auto;
-    color: darkblue;
     text-decoration: solid;
     text-align: center;
 }
@@ -20,3 +23,14 @@ h3 {
     padding-left: 50px;
 }
 
+p {
+    color: darkblue;
+}
+
+p.invis {
+    display: none;
+}
+
+p.indep {
+    display: block;
+}s
