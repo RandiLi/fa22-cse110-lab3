@@ -3,23 +3,25 @@
     <head>
         <title>Team Meeting Minutes</title>
         <meta name="author" content="Randi Li">
-        <link rel="icon" type="image/png" href="./images/favicon.png">
+        <link rel="icon" type="image/png" href="./media/favicon.png">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <header>
             <h1>Team Meeting</h1>
+            <br><br><br><br>
             <details>
                 <summary><h2>Index</h2></summary>
                 <nav>
-                    <h3 style="margin-left:50px;"><a href="#info">Basic Information</a></h3>
-                    <h3 style="margin-left:50px;"><a href="#attend">Attendance List</a></h3>
-                    <h3 style="margin-left:50px;"><a href="#agends">Agenda</a></h3>
-                    <h3 style="margin-left:50px;"><a href="#old">Unconducted Business</a></h3>
-                    <h3 style="margin-left:50px;"><a href="#new">New Business</a></h3>
-                    <h3 style="margin-left:50px;"><a href="#misc">Miscellaneous</a></h3>
-                    <h3 style="margin-left:50px;"><a href="#imgs">Relevant Images</a></h3>
-                    <h3 style="margin-left:50px;"><a href="#audio">Audio Recording</a></h3>
-                    <h3 style="margin-left:50px;"><a href="#video">Video Recording</a></h3>
+                    <h3><a href="#info" title="What's up">Basic Information</a></h3>
+                    <h3><a href="#attend">Attendance List</a></h3>
+                    <h3><a href="#agends">Agenda</a></h3>
+                    <h3><a href="#old">Unconducted Business</a></h3>
+                    <h3><a href="#new">New Business</a></h3>
+                    <h3><a href="#misc">Miscellaneous</a></h3>
+                    <h3><a href="#imgs">Relevant Images</a></h3>
+                    <h3><a href="#audio">Audio Recording</a></h3>
+                    <h3><a href="#video">Video Recording</a></h3>
                 </nav>
             </details>
         </header>
@@ -27,14 +29,15 @@
         <main>
             <section>
                 <h2 id="info">Basic Information</h2>
-                    <p>This is the webpage for our team's <span>meeting</span> minutes.</p>
-                    <p>This <span>meeting</span> was held on <b>Oct. 9th</b>.</p>
+                    <p class="invis">You can't see this.</p>
+                    <p class="indep">This is the webpage for our team's <span>meeting</span> minutes.</p>
+                    <p class="indep">This <span>meeting</span> was held on <b>Oct. 9th</b>.</p>
             </section>
             <hr>
             <section>
                 <h2 id="attend">Attendance List</h2>
                     <fieldset>
-                        <legend>Members</legend>
+                        <legend style="font-family: silkScreen;">Members</legend>
                         <div>
                             <input type="checkbox" id="randi" name="randi" checked>
                             <label for="randi">Randi Li</label>
@@ -109,11 +112,23 @@
                         </datalist>
                     </form>
                     <button type="button">Submit!</button>
+                    <div class="flex_container">
+                        <div>Comment</div>
+                        <div>Request</div>
+                        <div>Review</div>
+                        <div>Suggest</div>
+                    </div>
+                    <div class="grid_container">
+                        <div class="grid_item">Comment</div>
+                        <div class="grid_item">Request</div>
+                        <div class="grid_item">Review</div>
+                        <div class="grid_item">Suggest</div>
+                    </div>
             </section>
             <hr>
             <section>
                 <h2 id="imgs">Relevant Images</h2>
-                    <img width="360" height="360" src="./images/dog.jpg" alt="Anon's dog">
+                    <img width="360" height="360" src="./media/dog.jpg" alt="Anon's dog">
             </section>
             <hr>
             <section>

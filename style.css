@@ -1,0 +1,140 @@
+/* 3rd party font */
+@font-face {
+    font-family: silkScreen;
+    src: url("./media/Silkscreen-Regular.ttf");
+}
+
+/* Universal selecto */
+* {
+    margin-left: 1px;
+}
+
+/* Selector list */
+footer,
+body {
+    /* Backgground */
+    background-color: aliceblue;
+}
+
+/* Attribute selector */
+a[title] {
+    background-color: yellow;
+}
+
+/* Element Selector */
+h1 {
+    /* Box dimensions: sizing, unit */
+    height: 1.5cm;
+    width: 100vw;
+    max-height: 20vh;
+    max-width: 48in;
+    /* Box and border colors */
+    background-color: aliceblue;
+    border-style: outset;
+    border-color: aqua;
+    border-width: auto;
+    border-radius: auto;
+    /* Text styling */
+    text-decoration: solid;
+    text-align: center;
+    position: fixed;
+    font-family: silkScreen;
+}
+
+/* Descendant combinator */
+details h2 {
+    padding: 0px 0px 0px 0px;
+    margin-left: 1em;
+    /* Position */
+    position: static;
+    color: green;
+}
+
+/* General sibling combinator */
+hr ~ h2 {
+    position: sticky;
+    color: darkblue;
+} 
+
+/* Adjacent sibling */
+br + br {
+    background-color: #FFFFFF;
+}
+
+/* ID selector */
+#info {
+    border: 1px solid rgb(255,0,0);
+}
+
+h3 {
+    /* Short margin*/
+    margin: 0px 0px 0px 0px;
+    padding-left: 50px;
+}
+
+p {
+    color: hsl(240,32,27);
+}
+
+/* Combining two selectors */
+p.invis {
+    /* display */
+    display: none;
+}
+
+p.indep {
+    display: block;
+}
+
+/* Pseudo class */
+a:hover {
+    color: hotpink;
+}
+
+a:active {
+    color: red;
+}
+
+/* Flex box */
+.flex_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: darkblue;
+}
+
+/* Child combinator */
+.flex_container > div {
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    color: antiquewhite;
+}
+
+/* Grid */
+.grid_container {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 300px 300px;
+    column-gap: 10px;
+    row-gap: 10px;
+    background-color: green;
+}
+
+.grid_item {
+    background-color: greenyellow;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 30px;
+    padding: 15px;
+}
+
+/* Media query */
+@media only screen and (max-width:500px) {
+    body {
+        background-color: black;
+    }
+}
