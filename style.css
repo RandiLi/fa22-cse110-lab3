@@ -51,16 +51,24 @@ a:active {
     color: red;
 }
 
-.wrapper {
+.flex_container {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: space-between;
     background-color: darkblue;
-    width: 50px;
+    width: 300px;
     margin: 20px;
     text-align: center;
     line-height: 50px;
     font-size: 20px;
     color: antiquewhite;
+}
+
+.grid_container {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 300px 300px;
+    column-gap: 10px;
+    row-gap: 10px;
 }
