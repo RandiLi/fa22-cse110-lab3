@@ -58,12 +58,12 @@ hr ~ h2 {
 
 /* Adjacent sibling */
 br + br {
-    background-color: white;
+    background-color: #FFFFFF;
 }
 
 /* ID selector */
 #info {
-    border: 1px solid red;
+    border: 1px solid rgb(255,0,0);
 }
 
 h3 {
@@ -73,7 +73,7 @@ h3 {
 }
 
 p {
-    color: darkblue;
+    color: hsl(240,32,27);
 }
 
 /* Combining two selectors */
